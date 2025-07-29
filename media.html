@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Gallery - Angel Umeh</title>
+</head>
+
+<body>
+    <header>
+        <h1>Angel Umeh - Media Gallery</h1>
+        <p><b>AltSchool ID:</b> ALT/SOE/025/3527</p>
+        <nav>
+            <a href="index.html">Home</a> | <a href="table.html">Courses</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Professional Journey</h2>
+
+            <h3>Profile</h3>
+            <picture>
+                <source media="(max-width: 480px)"
+                        srcset="assets/angel-smol.jpg">
+                <source media="(max-width: 768px)"
+                        srcset="assets/angel-med.jpg">
+                <img src="assets/angel-lrg.jpg" alt="Angel Umeh"
+                     width="75%" height="auto">
+            </picture>
+            <p>
+                Angel is a Petroleum & Gas Engineering graduate from the University of Lagos, Nigeria. She is also a self-taught developer with a keen interest in things that live on the web.
+            </p>
+
+            <h3>Audio Introduction</h3>
+            <audio controls>
+                <source src="assets/angel-aud.ogg" type="audio/ogg">
+            </audio>
+
+            <h3>Project Showcase</h3>
+            <picture>
+                <source media="(max-width: 480px)"
+                        srcset="assets/projects/01-drumkit.png">
+                <source media="(max-width: 768px)"
+                        srcset="assets/projects/01-drumkit.png"
+                     alt="Project 1 - Drumkit" width="50%" height="auto">
+                <img src="assets/projects/01-drumkit.png" alt="Project 1 - Drumkit" 
+                     width="75%" height="auto">
+            </picture>
+            <picture>
+                <source media="(max-width: 480px)"
+                        srcset="assets/projects/03-flo.png">
+                <source media="(max-width: 768px)"
+                        srcset="assets/projects/03-flo.png"
+                     alt="Project 3 - Flo" width="50%" height="auto">
+                <img src="assets/projects/03-flo.png" alt="Project 3 - Flo"
+                     width="75%" height="auto">
+            </picture>
+
+            <h3>Learning Path</h3>
+            <iframe width="75%" height="auto" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Learning Journey" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Angel Umeh</p>
+    </footer>
+</body>
+
+</html>
